@@ -9,7 +9,8 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "name": "blogapi",
   "version": "1.0.0",
